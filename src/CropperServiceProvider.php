@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Cropper;
+namespace Gzoran\Cropper;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Form;

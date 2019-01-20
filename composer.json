@@ -1,5 +1,5 @@
 {
-    "name": "laravel-admin-ext/cropper",
+    "name": "gzoran/laravel-admin-cropper",
     "description": "Integrate Cropper into laravel-admin",
     "type": "library",
     "keywords": ["laravel-admin", "extension","cropper","image"],
@@ -9,6 +9,10 @@
         {
             "name": "EVA09",
             "email": "940173803@qq.com"
+        },
+        {
+            "name": "Mike",
+            "email": "zhengzhe94@gmail.com"
         }
     ],
     "require": {
@@ -20,13 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\Cropper\\": "src/"
+            "Gzoran\\Cropper\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\Cropper\\CropperServiceProvider"
+                "Gzoran\\Cropper\\CropperServiceProvider"
             ]
 
         }

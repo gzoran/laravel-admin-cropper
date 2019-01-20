@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Cropper;
+namespace Gzoran\Cropper;
 
 use Encore\Admin\Form\Field\ImageField;
 use Encore\Admin\Form\Field\File;
