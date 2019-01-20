@@ -3,7 +3,7 @@ cropper extension for laravel-admin
 
 这是一个`laravel-admin`扩展，用来将`cropper`集成进`laravel-admin`的表单中
 
-源码来源于：
+源码来源于：<https://github.com/laravel-admin-extensions/cropper>
 
 ## 截图
 
