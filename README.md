@@ -12,7 +12,7 @@ cropper extension for laravel-admin
 ## 安装
 
 ```bash
-composer require laravel-admin-ext/cropper
+composer require "gzoran/laravel-admin-cropper:~1.0"
 ```
 
 然后
