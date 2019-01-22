@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\Storage;
 
 class Crop extends File
 {
-    //use Field\UploadField;
     use ImageField;
 
     protected $basename = null;
@@ -47,7 +46,7 @@ class Crop extends File
         }
 
         $extension    = $result[2];
-        $directory    = ltrim($this->getDirectory(), '/');
+        $directory    = trim($this->getDirectory(), '/');
         $file_name    = $this->getStoreBasename() . '.' . $extension;
         $file_content = base64_decode(str_replace($result[1], '', $base64ImageContent));
         $file_path    = $directory . '/' . $file_name;
