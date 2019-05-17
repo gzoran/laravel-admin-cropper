@@ -97,7 +97,6 @@ class Crop extends File
         //检查是否是base64编码
         if (preg_match('/data:image\/.*?;base64/is',$base64)) {
             $imagePath = $this->storeBase64Image($base64);
-            $this->destroy();
             $this->callInterventionMethods($imagePath);
             return $imagePath;
         } else {
